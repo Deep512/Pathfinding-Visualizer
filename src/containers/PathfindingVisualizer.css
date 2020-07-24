@@ -1,0 +1,21 @@
+.grid {
+	margin-top: 90px;
+	margin-left: 8px;
+}
+
+h3 {
+	/* font-family: "Merriweather", serif; */
+	font-family: "Nanum Myeongjo", serif;
+	/* font-family: "PT Serif", serif; */
+	color: #061830;
+	/* font-weight: bold; */
+	/* color: #357064; */
+	/* font-family: "M PLUS Rounded 1c", sans-serif; */
+}
+
+i {
+	color: #061830;
+	/* font-size: 20px; */
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+}
