@@ -4,6 +4,7 @@
 	outline: 1px solid rgb(151, 204, 245);
 	margin-top: -1px;
 	margin-right: 1px;
+	box-sizing: border-box;
 	display: inline-block;
 }
 

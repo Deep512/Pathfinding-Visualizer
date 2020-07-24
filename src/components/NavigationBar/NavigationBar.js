@@ -110,7 +110,7 @@ export default class NavigationBar extends Component {
 						<Menu.Item>
 							<Button
 								id="button-visualize"
-								color="primary"
+								variant="primary"
 								onClick={this.handleVisualize}
 							>
 								{this.state.algorithm === "Algorithms"
