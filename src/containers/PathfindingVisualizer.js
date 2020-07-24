@@ -392,7 +392,7 @@ export default class Main extends Component {
 				}
 			}
 		}
-		this.setState({ grid: final, afterPath: false });
+		this.setState({ grid: final });
 	}
 
 	clearPath = () => {
