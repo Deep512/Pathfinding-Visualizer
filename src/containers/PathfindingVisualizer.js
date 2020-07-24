@@ -261,8 +261,7 @@ export default class Main extends Component {
 			this.visualizeAStar(grid, startNode, finishNode);
 		} else if (algorithm === "Greedy") {
 			this.visualizeGreedy(grid, startNode, finishNode);
-		}
-		if (algorithm === "BFS") {
+		} else if (algorithm === "BFS") {
 			this.visualizeBFS(grid, startNode, finishNode);
 		} else if (algorithm === "DFS") {
 			this.visualizeDFS(grid, startNode, finishNode);
@@ -306,7 +305,7 @@ export default class Main extends Component {
 		return (
 			<>
 				<NavigationBar
-					onVisiualizePressed={this.visualize}
+					onVisualizePressed={this.visualize}
 					onClearPathPressed={this.clearPath}
 					onClearGridPressed={this.clearGrid}
 					onChoosingAlgorithm={this.chooseAlgorithm}

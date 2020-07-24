@@ -58,7 +58,7 @@ export default class NavigationBar extends Component {
 	showFixedMenu = () => this.setState({ fixed: true });
 
 	handleVisualize = (e) => {
-		this.props.onVisiualizePressed(this.state.algorithm);
+		this.props.onVisualizePressed(this.state.algorithm);
 	};
 
 	obstacleCatcher = (e) => {
